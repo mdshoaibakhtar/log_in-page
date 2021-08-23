@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url('img/pen.jpg') no-repeat center center fixed;
+            background-size: cover;
+
+        }
+
+        #container {
+            position: absolute;
+            top: 25%;
+            left: 22%;
+            height: 20%;
+        }
+
+        #container h1 {
+            border-bottom: 2px solid rgb(25, 32, 22);
+            display: inline;
+            color: rgb(58, 68, 62);
+        }
+
+        .mail {
+            margin-top: 12px;
+            margin-bottom: 2px;
+        }
+
+        input {
+            /* border: 2px solid rgb(255, 0, 0); */
+            width: 273px;
+            padding: 2px;
+            border-radius: 5px;
+            background: none;
+            color: white;
+        }
+
+        button {
+            width: 99px;
+            margin-top: 5px;
+            position: absolute;
+            left: 177px;
+            cursor: pointer;
+            background: none;
+            border-radius: 6px;
+        }
+
+        #container a {
+            text-decoration: none;
+            color: white;
+            padding: 8px;
+        }
+
+        @media(max-width:455px) {
+            #container h1 {
+                border-bottom: 2px solid rgb(25, 32, 22);
+                display: inline;
+                color: rgb(73, 67, 67);
+            }
+
+            #container {
+                position: absolute;
+                top: 25%;
+                left: 16%;
+                height: 20%;
+            }
+
+            input {
+            width: 223px;
+            padding: 2px;
+            border-radius: 5px;
+            background: none;
+            color: white;
+        }
+
+        button{
+            width:69px;
+            left: 157px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>sign in</h1>
+        <div class="mail">
+            <input type="text" name="E-mail" placeholder="Enter your E-mail">
+        </div>
+        <div class="pass">
+            <input type="text" name="pass" placeholder="Enter your Password">
+        </div>
+        <div class="btn">
+            <button>sign in</button>
+        </div>
+    </div>
+</body>
+
+</html>
